@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ben Shorten</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🔗 Ben Shorten</h1>
+    <p>Fast. Free. No login required.</p>
+
+    <div class="shortener-box">
+        <input type="text" id="longUrl" placeholder="Paste your long URL here...">
+        <button onclick="shortenLink()">Shorten</button>
+    </div>
+
+    <div id="resultBox" class="result-box hidden">
+        <input type="text" id="shortUrl" readonly>
+        <button onclick="copyLink()">Copy</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
